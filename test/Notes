@@ -1,0 +1,11 @@
+/* // update test script as update by mocha in package.json acording to mocha doc 
+https://mochajs.org/#parallel-tests
+previously was :- 
+/* "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node app.js"
+}, */ */
+
+
+
+

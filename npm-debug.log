@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'cache', 'clean', '--force' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 warn using --force I sure hope you know what you are doing.
+5 silly ls normalized .
+6 silly gentlyRm /home/divyanshi/.npm/_cacache is being purged
+7 verbose gentlyRm don't care about contents; nuking /home/divyanshi/.npm/_cacache
+8 silly vacuum-fs purging /home/divyanshi/.npm/_cacache
+9 verbose stack Error: EACCES: permission denied, rmdir '/home/divyanshi/.npm/_cacache/content-v2'
+10 verbose cwd /home/divyanshi/Test Mocha/Hospital-management-nodejs-master
+11 error Linux 5.3.0-61-generic
+12 error argv "/usr/bin/node" "/usr/bin/npm" "cache" "clean" "--force"
+13 error node v8.10.0
+14 error npm  v3.5.2
+15 error path /home/divyanshi/.npm/_cacache/content-v2
+16 error code EACCES
+17 error errno -13
+18 error syscall rmdir
+19 error Error: EACCES: permission denied, rmdir '/home/divyanshi/.npm/_cacache/content-v2'
+19 error  { Error: EACCES: permission denied, rmdir '/home/divyanshi/.npm/_cacache/content-v2'
+19 error   errno: -13,
+19 error   code: 'EACCES',
+19 error   syscall: 'rmdir',
+19 error   path: '/home/divyanshi/.npm/_cacache/content-v2' }
+20 error Please try running this command again as root/Administrator.
+21 verbose exit [ -13, true ]
